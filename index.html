@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Заголовок страницы</title>
+    <title>Калькулятор</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-
-    Писька-попка-сиська
-
+<div id="main">
+    <div class="calculator">
+        <input class="calculator-input" id="firstNumber" type="text">
+        <select>
+            <option value="addition">Сложить</option>
+            <option value="multiplication">Умножить</option>
+            <option value="subtraction">Вычесть</option>
+            <option value="division">Разделить</option>
+          </select>
+        <input class="calculator-input" id="secondNumber" type="text">
+        <button>Вычислить</button>
+        <label class="calculator-input" id="result">0</label>
+    </div>
+</div>
 </body>
 </html>

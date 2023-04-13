@@ -1,0 +1,25 @@
+.calculator
+{
+    margin: 30px;
+    width: 500px;
+    height: 80%;
+    background-color:bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.calculator-input{
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
