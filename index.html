@@ -7,16 +7,16 @@
 <body>
 <div id="main">
     <div class="calculator">
-        <input class="calculator-input" id="firstNumber" type="text">
-        <select>
+        <input class="calculator-input" id="firstNumber" type="text" placeholder="Введите первое число">
+        <select class="calculator-select" id="operation">
             <option value="addition">Сложить</option>
-            <option value="multiplication">Умножить</option>
+            <option value="multiplication" >Умножить</option>
             <option value="subtraction">Вычесть</option>
             <option value="division">Разделить</option>
-          </select>
-        <input class="calculator-input" id="secondNumber" type="text">
-        <button>Вычислить</button>
-        <label class="calculator-input" id="result">0</label>
+        </select>
+        <input class="calculator-input" id="secondNumber" type="text" placeholder="Введите второе число">
+        <button class="calculator-button" id="calculate-button">Вычислить</button>
+        <label class="calculator-result" id="result">0</label>
     </div>
 </div>
 </body>
